@@ -1,0 +1,3 @@
+idf_component_register(SRCS "main.c"
+                       INCLUDE_DIRS "."
+                       REQUIRES usb_device_uac esp_driver_i2s)
